@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Data Deletion Request | Marble Shop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #eef1f4;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 600px;
+    background: #fff;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  }
+  h1 {
+    color: #2c3e50;
+  }
+  label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+  }
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  textarea {
+    resize: vertical;
+  }
+  button {
+    background: #d9534f;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #c9302c;
+  }
+  .note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>User Data Deletion Request</h1>
+
+  <p>
+    Use this form to request deletion of your data associated with
+    <strong>Marble Shop</strong> app
+    (<strong>com.newari.marbleshop</strong>).
+  </p>
+
+  <!-- FORM -->
+  <form action="mailto:shambhudayalyogi@gmail.com" method="post" enctype="text/plain">
+    <label>Full Name</label>
+    <input type="text" name="Name" required>
+
+    <label>Registered Mobile Number</label>
+    <input type="tel" name="Mobile" required>
+
+    <label>Registered Email (optional)</label>
+    <input type="email" name="Email">
+
+    <label>Reason for Deletion</label>
+    <textarea name="Reason" rows="4"></textarea>
+
+    <button type="submit">Submit Deletion Request</button>
+  </form>
+
+  <p class="note">
+    Alternatively, you may email us directly at
+    <a href="mailto:shambhudayalyogi@gmail.com">
+      shambhudayalyogi@gmail.com
+    </a>
+  </p>
+
+  <p class="note">
+    All verified data deletion requests will be processed within
+    <strong>7 working days</strong>.
+  </p>
+</div>
+
+</body>
+</html>
